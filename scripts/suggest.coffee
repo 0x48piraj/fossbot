@@ -1,6 +1,8 @@
 
 messages =
   explain: undefined
+  android: "Checkout [here](https://github.com/fossasia?language=java) :tada::tada:"
+  web: "Checkout [here](https://github.com/fossasia?language=javascript) :tada::tada:"
   html: "Checkout [here](https://github.com/fossasia?language=html) :tada::tada:"
   lua: "Checkout [here](https://github.com/fossasia?language=lua) :tada::tada:"
   css: "Checkout [here](https://github.com/fossasia?language=css) :tada::tada:"
