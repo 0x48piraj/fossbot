@@ -1,18 +1,18 @@
 
 messages =
   explain: undefined
-  html: "a"
-  lua: "a"
-  css: "a"
-  c: "a"
-  java: "a"
-  javascript: "Checkout https://github.com/fossasia?language=javascript :tada::tada:"
-  php: "https://github.com/fossasia?language=php"
-  python: "https://github.com/fossasia?language=python"
-  kotlin: "a"
-  swift: "a"
-  typescript: "a"
-  shell: "a"
+  html: "Checkout [here](https://github.com/fossasia?language=html) :tada::tada:"
+  lua: "Checkout [here](https://github.com/fossasia?language=lua) :tada::tada:"
+  css: "Checkout [here](https://github.com/fossasia?language=css) :tada::tada:"
+  c: "Checkout [here](https://github.com/fossasia?language=c) :tada::tada:"
+  java: "Checkout [here](https://github.com/fossasia?language=java) :tada::tada:"
+  javascript: "Checkout [here](https://github.com/fossasia?language=javascript) :tada::tada:"
+  php: "Checkout [here](https://github.com/fossasia?language=php) :tada::tada:"
+  python: "Checkout [here](https://github.com/fossasia?language=python) :tada::tada:"
+  kotlin: "Checkout [here](https://github.com/fossasia?language=kotlin) :tada::tada:"
+  swift: "Checkout [here](https://github.com/fossasia?language=swift) :tada::tada:"
+  typescript: "Checkout [here](https://github.com/fossasia?language=typescript) :tada::tada:"
+  shell: "Checkout [here](https://github.com/fossasia?language=shell) :tada::tada:"
   famous: "use the pinned repos and format this text to bullet all the repos"
 
 module.exports = (robot) ->
