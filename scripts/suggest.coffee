@@ -1,7 +1,6 @@
 
 messages =
   explain: undefined
-  web: "Checkout [here](https://github.com/fossasia?language=javascript) :tada::tada:"
   html: "Checkout [here](https://github.com/fossasia?language=html) :tada::tada:"
   lua: "Checkout [here](https://github.com/fossasia?language=lua) :tada::tada:"
   css: "Checkout [here](https://github.com/fossasia?language=css) :tada::tada:"
@@ -16,9 +15,10 @@ messages =
   shell: "Checkout [here](https://github.com/fossasia?language=shell) :tada::tada:"
   famous: "use the pinned repos and format this text to bullet all the repos"
 
-messages =
+domain =
   android: "Checkout [here](https://github.com/fossasia?language=java) :tada::tada:"
-  web: "a"
+  web: "Checkout [here](https://github.com/fossasia?language=javascript) :tada::tada:"
+  ios: "Checkout [here](https://github.com/fossasia?language=swift) :tada::tada:"
 
 module.exports = (robot) ->
   robot.hear /fossbot suggest (\w*)\s?(?:$|to @?([^\s]+))/i, (msg) ->
@@ -29,8 +29,8 @@ module.exports = (robot) ->
    msg.emote response
     
   robot.hear /fossbot suggest noob (\w*)\s?(?:$|to @?([^\s]+))/i, (msg) ->
-   response = noob_messages[msg.match[1].toLowerCase()]
+   response = domain[msg.match[1].toLowerCase()]
    user = msg.message.user.login
-      if !response
-    msg.send "I would recommend to narrow down your searches to::wink:\n\n" + "**web, android**"
+   if !response
+     msg.send "I would recommend to narrow down your searches to::wink:\n\n" + "**web, android**"
    msg.emote response
