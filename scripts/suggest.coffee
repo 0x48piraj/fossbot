@@ -28,9 +28,9 @@ module.exports = (robot) ->
     msg.send "I would recommend to narrow down your searches to::wink:\n\n" + "**html, lua, css, c, java, javascript, php, python, kotlin, swift, typescript, shell**"
    msg.emote response
     
-  robot.hear /fossbot suggest noob (\w*)\s?(?:$|to @?([^\s]+))/i, (msg) ->
+  robot.hear /fossbot suggest domain (\w*)\s?(?:$|to @?([^\s]+))/i, (msg) ->
    response = domain[msg.match[1].toLowerCase()]
    user = msg.message.user.login
    if !response
-     msg.send "I would recommend to narrow down your searches to::wink:\n\n" + "**web, android**"
+     msg.send "I would recommend to narrow down your searches to::wink:\n\n" + "**web, android, ios**"
    msg.emote response
