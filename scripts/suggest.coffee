@@ -13,7 +13,7 @@ messages =
   swift: "Checkout [here](https://github.com/fossasia?language=swift) :tada::tada:"
   typescript: "Checkout [here](https://github.com/fossasia?language=typescript) :tada::tada:"
   shell: "Checkout [here](https://github.com/fossasia?language=shell) :tada::tada:"
-  famous: "use the pinned repos and format this text to bullet all the repos"
+  famous: "You can checkout these projects\n- [Open Event Webapp](https://github.com/fossasia/open-event-webapp)\n- [Susi Server](https://github.com/fossasia/susi-server)\n- [Yaydoc](https://github.com/fossasia/yaydoc)\n- [Susi Chat](https://github.com/fossasia/chat.susi.ai)\n- [Susi Android](https://github.com/fossasia/susi-android)\n- [Loklak Search](https://github.com/fossasia/loklak_search)\n\n*Hope you enjoy working on one of these!* :sparkles:"
 
 domain =
   android: "Checkout [here](https://github.com/fossasia?language=java) :tada::tada:"
