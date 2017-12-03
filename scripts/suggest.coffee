@@ -13,6 +13,7 @@ messages =
   swift: "a"
   typescript: "a"
   shell: "a"
+  famous: "use the pinned repos and format this text to bullet all the repos"
 
 module.exports = (robot) ->
   robot.hear /fossbot suggest (\w*)\s?(?:$|to @?([^\s]+))/i, (msg) ->
