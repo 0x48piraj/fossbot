@@ -24,6 +24,8 @@ Made using [Hubot](https://hubot.github.com/)
 
 - Suggests projects of specific language
 
+- *(more)*
+
 ## Dependencies
 
 - [Node](https://nodejs.org/en/)
