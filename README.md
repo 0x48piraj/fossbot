@@ -1,10 +1,8 @@
-# fossbot
+# FOSSbot
 
-Helper bot in guiding new [FOSSASIA](http://github.com/fossasia) contributors.
+> Helper bot in guiding new [FOSSASIA](http://github.com/fossasia) Contributors.
 
-Made using [Hubot](https://hubot.github.com/)
-
-**Yaha badges daal dena**
+Made using [Hubot](https://hubot.github.com/) :rocket:
 
 ## Installation
 
