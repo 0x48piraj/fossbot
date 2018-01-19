@@ -11,21 +11,11 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-yellow.svg)](LICENSE)
 
 
-## Installation
-
-- Install Hubot and CoffeeScript: `npm install -g hubot coffee-script@1.8.0`
-
-- Install hubot-gitter2 adapter: `npm install --save hubot-gitter2`
-
-- Start bot usiing: `HUBOT_GITTER2_TOKEN=<your token> ./bin/hubot -a gitter2 --name <your bot name>`
-
-    - `HUBOT_GITTER2_TOKEN`: get your personal token [here](https://developer.gitter.im/apps) after sign-in.
-    
-    - The bot will automatically listen on the rooms it has joined.
-
 ## Features
 
-- Welcomes a new member with awesome toast!
+- About **@fossbot**
+
+- Welcomes a new member with an awesome toast and tell best practices!
 
 - Suggests projects of specific language
 
